@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>KingMeta Game 🎮</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="container">
+
+    <h1>🎮 KingMeta Game</h1>
+
+    <!-- Infos lettre, temps et score -->
+   <div class="info">
+  <span>Lettre: <b id="lettre">A</b></span>
+  <span>⏱️ <b id="temps">30</b>s</span>
+  <span>⭐ <b id="score">0</b></span>
+  <span>Manche: <b id="currentManche">1</b>/10</span>
+</div>
+
+    <!-- Champs de saisie -->
+    <input id="pays" placeholder="🌍 Pays">
+    <input id="metier" placeholder="💼 Métier">
+    <input id="animal" placeholder="🐾 Animal">
+    <input id="voiture" placeholder="🚗 Voiture">
+
+    <!-- Boutons -->
+    <button onclick="valider()">Valider</button>
+    <button onclick="nouvellePartie()">Nouvelle manche</button>
+
+  </div>
+
+  <!-- Script JS -->
+  <script src="script.js"></script>
+</body>
+</html>
